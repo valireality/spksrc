@@ -15,4 +15,4 @@ include ../../mk/spksrc.native-install.mk
 
 .PHONY: nodejs-install
 nodejs-install:
-        @mv -f $(WORK_DIR)/$(PKG_DIR)/ $(WORK_DIR)/node/
+	@mv -f $(WORK_DIR)/$(PKG_DIR)/ $(WORK_DIR)/node/
