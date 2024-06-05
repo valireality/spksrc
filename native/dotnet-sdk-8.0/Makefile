@@ -16,4 +16,4 @@ include ../../mk/spksrc.native-install.mk
 
 .PHONY: dotnet-install
 dotnet-install:
-        mkdir -p $(DOTNET_PACKAGES)
+	mkdir -p $(DOTNET_PACKAGES)
