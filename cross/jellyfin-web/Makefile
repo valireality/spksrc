@@ -1,12 +1,12 @@
 PKG_NAME = jellyfin-web
-PKG_VERS = 10.8.13
+PKG_VERS = 10.9.4
 PKG_EXT = tar.gz
 PKG_DIST_NAME = v$(PKG_VERS).$(PKG_EXT)
 PKG_DIST_SITE = https://github.com/jellyfin/jellyfin-web/archive
 PKG_DIST_FILE = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
 PKG_DIR = $(PKG_NAME)-$(PKG_VERS)
 
-BUILD_DEPENDS = native/nodejs
+BUILD_DEPENDS = native/nodejs-20
 
 HOMEPAGE = https://jellyfin.org
 COMMENT  = Jellyfin Web is the frontend used for most of the clients available for end users.
